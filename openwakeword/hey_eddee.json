@@ -6,7 +6,10 @@
   "model": "https://github.com/digital-ark/homeassistant/openwakeword/hey_eddee.tflite",
   "version": 1,
   "micro": {
-    "probability_cutoff": 0.5,
-    "sliding_window_average_size": 10
+    "probability_cutoff": 0.97,
+    "feature step size": 10,
+    "sliding_window_average_size": 5,
+    "tensor_arena_size": 22860,
+    "minimum_esphome_version": "2024.7.0"
   }
 }
