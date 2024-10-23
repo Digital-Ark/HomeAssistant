@@ -3,7 +3,7 @@
   "wake_word": “hey Eddie”,
   "author": “Noah Eldridge”,
   "website": "https://drive.google.com",
-  "model": “https://drive.google.com/file/d/11awCHWu0AEbCdT_lqudF2em_PZykPwen/view?usp=drive_link",
+  "model": “hey_eddee.tflite",
   "version": 2,
   "micro": {
     "probability_cutoff": 0.97,
