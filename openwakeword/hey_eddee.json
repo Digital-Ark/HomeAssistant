@@ -3,7 +3,7 @@
   "wake_word": "Hey Eddie",
   "author": "Noah Eldridge",
   "website": "https://github.com/digital-ark/homeassistant/",
-  "model": "./hey_eddee.tflite",
+  "model": "https://github.com/digital-ark/homeassistant/openwakeword/hey_eddee.tflite",
   "version": 1,
   "micro": {
     "probability_cutoff": 0.5,
