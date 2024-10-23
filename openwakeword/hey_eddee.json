@@ -1,15 +1,12 @@
 {
   "type": "micro",
-  "wake_word": “hey Eddie”,
-  "author": “Noah Eldridge”,
-  "website": "https://github.com/Digital-Ark",
-  "model": “https://github.com/Digital-Ark/HomeAssistant/blob/57e92195c7fc15aaa62827591e71be966616bd3e/openwakeword/hey_eddee.tflite",
-  "version": 2,
+  "wake_word": "Hey Eddie",
+  "author": "Noah Eldridge",
+  "website": "https://github.com/Digital-Ark/HomeAssistant/",
+  "model": "./hey_eddee.tflite",
+  "version": 1,
   "micro": {
-    "probability_cutoff": 0.97,
-    "sliding_window_size": 5,
-    "feature_step_size": 10,
-    "tensor_arena_size": 22860,
-    "minimum_esphome_version": "2024.7"
+    "probability_cutoff": 0.5,
+    "sliding_window_average_size": 10
   }
 }
