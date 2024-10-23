@@ -2,7 +2,7 @@
   "type": "micro",
   "wake_word": "Hey Eddie",
   "author": "Noah Eldridge",
-  "website": "https://github.com/Digital-Ark/HomeAssistant/",
+  "website": "https://github.com/digital-ark/homeassistant/",
   "model": "./hey_eddee.tflite",
   "version": 1,
   "micro": {
